@@ -64,6 +64,7 @@ function formatDate(str) {
 function makeTable(Data) {
   $('#table').DataTable({
     data: Data,
+    responsive:true,
     columns: [
       { data: 'Ticket' },
       { data: 'Open Date' },
